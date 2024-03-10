@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nginx基础 | Junlogz-Blog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/images/favicon.png">
+    <meta name="description" content="Junlogz-Blog notes">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    
+    <link rel="preload" href="/assets/css/0.styles.e853742c.css" as="style"><link rel="preload" href="/assets/js/app.00ab6ad1.js" as="script"><link rel="preload" href="/assets/js/3.063946e3.js" as="script"><link rel="preload" href="/assets/js/1.f0dee50d.js" as="script"><link rel="preload" href="/assets/js/12.20ec64b2.js" as="script"><link rel="prefetch" href="/assets/js/10.27468c1b.js"><link rel="prefetch" href="/assets/js/11.6f8e22bc.js"><link rel="prefetch" href="/assets/js/13.b27443aa.js"><link rel="prefetch" href="/assets/js/14.16b26e4d.js"><link rel="prefetch" href="/assets/js/15.67aa604b.js"><link rel="prefetch" href="/assets/js/16.43ae5be8.js"><link rel="prefetch" href="/assets/js/17.68cfdfe7.js"><link rel="prefetch" href="/assets/js/18.63ee2625.js"><link rel="prefetch" href="/assets/js/19.41d9e123.js"><link rel="prefetch" href="/assets/js/20.28721e78.js"><link rel="prefetch" href="/assets/js/21.8a39e932.js"><link rel="prefetch" href="/assets/js/22.ea7ba8e0.js"><link rel="prefetch" href="/assets/js/23.5fd224e6.js"><link rel="prefetch" href="/assets/js/4.b49c536d.js"><link rel="prefetch" href="/assets/js/5.aa6c9511.js"><link rel="prefetch" href="/assets/js/6.098780c7.js"><link rel="prefetch" href="/assets/js/7.4c822714.js"><link rel="prefetch" href="/assets/js/8.69f56ef7.js"><link rel="prefetch" href="/assets/js/9.85f8c3a3.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e853742c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>Junlogz-Blog</h3> <p class="description" data-v-59e6cb88>Junlogz-Blog notes</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Junlogz</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2024
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/logo.png" alt="Junlogz-Blog" class="logo"> <span class="site-name">Junlogz-Blog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      中间件框架
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/redis/" class="nav-link"><i class="undefined"></i>
+  Redis缓存
+</a></li><li class="dropdown-item"><!----> <a href="/docs/mq/" class="nav-link"><i class="undefined"></i>
+  MQ消息队列
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      其他技术栈
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringCloud/" class="nav-link"><i class="undefined"></i>
+  SpringCloud
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/Junlogz" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/images/avatar.jpg" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    Junlogz
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>13</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>3</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      中间件框架
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/redis/" class="nav-link"><i class="undefined"></i>
+  Redis缓存
+</a></li><li class="dropdown-item"><!----> <a href="/docs/mq/" class="nav-link"><i class="undefined"></i>
+  MQ消息队列
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      其他技术栈
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringCloud/" class="nav-link"><i class="undefined"></i>
+  SpringCloud
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/Junlogz" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>Nginx基础</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Junlogz</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2024
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">Nginx基础</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>Junlogz</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2/15/2023</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>Nginx</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="一、nginx的安装与启动"><a href="#一、nginx的安装与启动" class="header-anchor">#</a> 一、Nginx的安装与启动</h2> <h3 id="_1-什么是nginx"><a href="#_1-什么是nginx" class="header-anchor">#</a> 1. 什么是Nginx</h3> <p>Nginx 是⼀款⾼性能的 http 服务器/反向代理服务器及电⼦邮件（IMAP/POP3）代理服务器。由俄罗斯的程序设计师伊戈尔·西索夫（Igor Sysoev）所开发，官⽅测试 nginx 能够⽀⽀撑 5 万并发链接，并且 cpu、内存等资源消耗却非常低，运行非常稳定。</p> <blockquote><p>Nginx应用场景</p></blockquote> <ol><li>http 服务器。Nginx 是⼀个 http 服务可以独立提供 http 服务。可以做网页静态服务器。</li> <li>虚拟主机。可以实现在⼀台服务器虚拟出多个网站。例如个人网站站使用的虚拟主机。</li> <li>反向代理，负载均衡。当网站的访问量达到⼀定程度后，单台服务器不能满足用户的请求时，需要用多台服务器集群可以使用 nginx 做反向代理。并且多台服务器可以平均分担负载，不会因为某台服务器负载高宕机而某台服务器闲置的情况。</li></ol> <h3 id="_2-安装nginx"><a href="#_2-安装nginx" class="header-anchor">#</a> 2. 安装Nginx</h3> <blockquote><p>docker 安装方式</p></blockquote> <h4 id="_2-1-搜索和拉取镜像"><a href="#_2-1-搜索和拉取镜像" class="header-anchor">#</a> 2.1. 搜索和拉取镜像</h4> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code><span class="token comment"># 搜索</span>
+docker search nginx
+<span class="token comment"># 拉取</span>
+docker pull nginx
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="_2-2-创建容器-设置端口映射、目录映射"><a href="#_2-2-创建容器-设置端口映射、目录映射" class="header-anchor">#</a> 2.2. 创建容器，设置端口映射、⽬录映射</h4> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code><span class="token comment"># 在/root⽬录下创建nginx⽬录⽤于存储nginx数据信息 </span>
+mkdir ~/nginx 
+cd ~/nginx
+mkdir conf
+cd conf 
+<span class="token comment"># 在~/nginx/conf/下创建nginx.conf⽂件,粘贴下⾯内容 </span>
+vim nginx.conf
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language-java line-numbers-mode"><pre class="language-java"><code>user nginx<span class="token punctuation">;</span>
+worker_processes <span class="token number">1</span><span class="token punctuation">;</span>
+
+error_log <span class="token operator">/</span><span class="token keyword">var</span><span class="token operator">/</span>log<span class="token operator">/</span>nginx<span class="token operator">/</span>error<span class="token punctuation">.</span>log warn<span class="token punctuation">;</span>
+pid <span class="token operator">/</span><span class="token keyword">var</span><span class="token operator">/</span>run<span class="token operator">/</span>nginx<span class="token punctuation">.</span>pid<span class="token punctuation">;</span>
+
+events <span class="token punctuation">{</span>
+    worker_connections <span class="token number">1024</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span> 
+
+http <span class="token punctuation">{</span>
+    include <span class="token operator">/</span>etc<span class="token operator">/</span>nginx<span class="token operator">/</span>mime<span class="token punctuation">.</span>types<span class="token punctuation">;</span>
+    default_type application<span class="token operator">/</span>octet<span class="token operator">-</span>stream<span class="token punctuation">;</span>
+    log_format main '$remote_addr <span class="token operator">-</span> $remote_user <span class="token punctuation">[</span>$time_local<span class="token punctuation">]</span> <span class="token string">&quot;$request&quot;</span> ' 
+                    '$status $body_bytes_sent <span class="token string">&quot;$http_referer&quot;</span> ' 
+                    '<span class="token string">&quot;$http_user_agent&quot;</span> <span class="token string">&quot;$http_x_forwarded_for&quot;</span>'<span class="token punctuation">;</span>
+
+    access_log <span class="token operator">/</span><span class="token keyword">var</span><span class="token operator">/</span>log<span class="token operator">/</span>nginx<span class="token operator">/</span>access<span class="token punctuation">.</span>log main<span class="token punctuation">;</span>
+    sendfile on<span class="token punctuation">;</span>
+    #tcp_nopush on<span class="token punctuation">;</span>
+
+    keepalive_timeout <span class="token number">65</span><span class="token punctuation">;</span>
+
+    #gzip on<span class="token punctuation">;</span>
+
+    include <span class="token operator">/</span>etc<span class="token operator">/</span>nginx<span class="token operator">/</span>conf<span class="token punctuation">.</span>d<span class="token comment">/*.conf; 
+}
+</span></code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><p><strong>~/nginx/conf.d/80.conf</strong></p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>server <span class="token punctuation">{</span>
+  listen 80; <span class="token comment"># 监听的端⼝</span>
+  server_name localhost; <span class="token comment"># 域名或ip</span>
+  location / <span class="token punctuation">{</span> <span class="token comment"># 访问路径配置</span>
+      root  /usr/share/nginx/html;<span class="token comment"># 根⽬录</span>
+      index index.html index.htm; <span class="token comment"># 默认⾸⻚</span>
+  <span class="token punctuation">}</span>
+  error_page 500 502 503 504 /50x.html; <span class="token comment"># 错误⻚⾯</span>
+  location = /50x.html <span class="token punctuation">{</span>
+    root html;
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>docker run <span class="token punctuation">-</span>id <span class="token punctuation">-</span><span class="token punctuation">-</span>name=c_nginx \ 
+<span class="token punctuation">-</span>p 80<span class="token punctuation">:</span>80 \
+<span class="token punctuation">-</span>p 81<span class="token punctuation">:</span>81 \
+<span class="token punctuation">-</span>p 82<span class="token punctuation">:</span>82 \
+<span class="token punctuation">-</span>v $PWD/conf/nginx.conf<span class="token punctuation">:</span>/etc/nginx/nginx.conf \
+<span class="token punctuation">-</span>v $PWD/conf.d<span class="token punctuation">:</span>/etc/nginx/conf.d \
+<span class="token punctuation">-</span>v $PWD/logs<span class="token punctuation">:</span>/var/log/nginx \
+<span class="token punctuation">-</span>v $PWD/html<span class="token punctuation">:</span>/usr/share/nginx/html \
+nginx
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ul><li>参数说明：
+<ul><li>p 80:80：将容器的 80端⼝映射到宿主机的 80 端⼝。</li> <li>-v $PWD/conf/nginx.conf:/etc/nginx/nginx.conf：将主机当前目录下的 /conf/nginx.conf 挂载到容器的 :/etc/nginx/nginx.conf。配置⽬录</li> <li>-v $PWD/logs:/var/log/nginx：将主机当前⽬录下的logs目录挂载到容器的/var/log/nginx。⽇志⽬录</li></ul></li></ul> <h4 id="_2-3-使用外部机器访问nginx"><a href="#_2-3-使用外部机器访问nginx" class="header-anchor">#</a> 2.3. 使用外部机器访问nginx</h4> <p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23fdc44ec53f4c28b3a68f1b7bbeb225~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p> <h2 id="二、nginx静态网站部署"><a href="#二、nginx静态网站部署" class="header-anchor">#</a> 二、Nginx静态网站部署</h2> <h3 id="_1-静态网站的部署"><a href="#_1-静态网站的部署" class="header-anchor">#</a> 1. 静态网站的部署</h3> <p>将/资料/静态⻚⾯/index⽬录下的所有内容 上传到服务器的/usr/local/nginx/html下即可访问</p> <h3 id="_2-配置虚拟主机"><a href="#_2-配置虚拟主机" class="header-anchor">#</a> 2. 配置虚拟主机</h3> <p>虚拟主机，也叫“⽹站空间”，就是把⼀台运⾏在互联⽹上的物理服务器划分成多个“虚拟”服务器。虚拟主 机技术极⼤的促进了⽹络技术的应⽤和普及。同时虚拟主机的租⽤服务也成了⽹络时代的⼀种新型经济 形式。</p> <h4 id="_2-1-端口绑定"><a href="#_2-1-端口绑定" class="header-anchor">#</a> 2.1 端口绑定</h4> <p>（1）上传静态⽹站:<br>
+将index.html/index⽬录上传⾄ /usr/local/nginx/index下<br>
+将regist.html/regist⽬录上传⾄ /usr/local/nginx/regist下
+（2）修改Nginx 的配置⽂件：~/nginx/conf.d/port.conf</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>server <span class="token punctuation">{</span>
+  listen        81; <span class="token comment"># 监听的端口</span>
+  server_name   localhost; <span class="token comment"># 域名或ip</span>
+  location / <span class="token punctuation">{</span> <span class="token comment"># 访问路径配置</span>
+      root      /usr/share/nginx/index;<span class="token comment"># 根</span>
+      index     index.html index.htm; <span class="token comment"># 默认</span>
+  <span class="token punctuation">}</span>
+  error_page 500 502 503 504 /50x.html; <span class="token comment"># 错误页面</span>
+  location = /50x.html <span class="token punctuation">{</span>
+    root        html;
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+server <span class="token punctuation">{</span>
+  listen        82; <span class="token comment"># 监听的端口</span>
+  server_name   localhost; <span class="token comment"># 域名或ip</span>
+  location / <span class="token punctuation">{</span> <span class="token comment"># 访问路径配置</span>
+      root      /usr/share/nginx/regist;<span class="token comment"># 根</span>
+      index     regist.html; <span class="token comment"># 默认</span>
+  <span class="token punctuation">}</span>
+  error_page 500 502 503 504 /50x.html; <span class="token comment"># 错误页面</span>
+  location = /50x.html <span class="token punctuation">{</span>
+    root        html;
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>（3）访问测试：<br>
+地址栏输⼊http://xxx.xxx.xxx.xxx/:81 可以看到⾸⻚⾯<br>
+地址栏输⼊http://xxx.xxx.xxx.xxx/:82 可以看到注册⻚⾯</p> <p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3554408a36c446c8aada50e79891164~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p> <p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa2fbe297399477880b54ae6311cd990~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p> <h4 id="_2-2-域名绑定"><a href="#_2-2-域名绑定" class="header-anchor">#</a> 2.2 域名绑定</h4> <p><strong>什么是域名</strong>：<br>
+域名（Domain Name），是由⼀串⽤“点”分隔的字符组成的Internet上某⼀台计算机或计算机组的名称，⽤于在数据传输时标识计算机的电⼦⽅位（有时也指地理位置，地理上的域名，指代有⾏政⾃主权 的⼀个地方区域）。域名是⼀个IP地址上有“面具” 。域名的⽬的是便于记忆和沟通的⼀组服务器的地址 （网站，电子邮件，FTP等）。域名作为⼒所能及难忘的互联⽹参与者的名称。域名按域名系统 （DNS）的规则流程组成。在DNS中注册的任何名称都是域名。域名⽤于各种⽹络环境和应⽤程序特定的命名和寻址⽬的。通常，域名表示互联网协议（IP）资源，例如⽤于访问因特⽹的个⼈计算机，托管网站的服务器计算机，或⽹站本身或通过因特网传送的任何其他服务。世界上第⼀个注册的域名是在 1985年1⽉注册的。</p> <blockquote><p>域名与Ip绑定</p></blockquote> <p>⼀个域名对应⼀个 ip 地址，⼀个 ip 地址可以被多个域名绑定。<br>
+本地测试可以修改 hosts ⽂件（C:\Windows\System32\drivers\etc）<br>
+可以配置域名和ip的映射关系，如果hosts⽂件中配置了域名和ip的对应关系，不需要走dns服务 器。 192.168.177.129 www.kkkk.com<br>
+192.168.177.129 www.jjjj.com
+做好域名指向后，修改nginx配置⽂件 domain.conf</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>server <span class="token punctuation">{</span> 
+    listen 80; 
+    server_name www.kkkk.com;
+    location / <span class="token punctuation">{</span> 
+        root /usr/share/nginx/cart;
+        index cart.html; 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span> 
+server <span class="token punctuation">{</span> 
+    listen 80;
+    server_name www.jjjj.com;
+    location / <span class="token punctuation">{</span>
+        root /usr/share/nginx/search;
+        index search.html; 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="三、nginx反向代理与负载均衡"><a href="#三、nginx反向代理与负载均衡" class="header-anchor">#</a> 三、Nginx反向代理与负载均衡</h2> <h3 id="_1-反向代理"><a href="#_1-反向代理" class="header-anchor">#</a> 1. 反向代理</h3> <h4 id="_1-1-什么是反向代理"><a href="#_1-1-什么是反向代理" class="header-anchor">#</a> 1.1 什么是反向代理？</h4> <p>反向代理（Reverse Proxy）方式是指以代理服务器来接受internet上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给internet上请求连接的客户端，此时代理服务器对外就表现为⼀个反向代理服务器。
+⾸先我们先理解正向代理，如下图：</p> <p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7248c83f57134308b35a1b14c0e074c0~tplv-k3u1fbpfcp-watermark.image?" alt="image.png">
+正向代理是针对你的客户端，⽽反向代理是针对服务器的，如下图：</p> <p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8969bca240ea4652afe366d1a04eecb7~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p> <h4 id="_1-2-配置反向代理-准备工作"><a href="#_1-2-配置反向代理-准备工作" class="header-anchor">#</a> 1.2 配置反向代理-准备工作</h4> <blockquote><p>在docker中部署tomcat</p></blockquote> <ol><li>搜索并拉取tomcat镜像</li></ol> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>docker search tomcat
+docker pull tomcat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="2"><li>创建容器，设置端⼝映射、⽬录映射</li></ol> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code><span class="token comment"># 在/root⽬录下创建tomcat⽬录⽤于存储tomcat数据信息</span>
+mkdir ~/tomcat 
+cd ~/tomcat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>docker run <span class="token punctuation">-</span>id <span class="token punctuation">-</span><span class="token punctuation">-</span>name=c_tomcat \
+<span class="token punctuation">-</span>p 8080<span class="token punctuation">:</span>8080 \
+<span class="token punctuation">-</span>v $PWD<span class="token punctuation">:</span>/usr/local/tomcat/webapps \
+tomcat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ol start="3"><li>使⽤外部机器访问tomcat</li></ol> <h4 id="_1-3-配置反向代理"><a href="#_1-3-配置反向代理" class="header-anchor">#</a> 1.3 配置反向代理</h4> <p>~/nginx/config.d/proxy.conf</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>upstream tomcat<span class="token punctuation">{</span> 
+server 192.168.220.12<span class="token punctuation">:</span>8080; 
+<span class="token punctuation">}</span> 
+server <span class="token punctuation">{</span> 
+    listen 80; <span class="token comment"># 监听的端⼝ </span>
+    server_name www.jjj.com; <span class="token comment"># 域名或ip </span>
+    location / <span class="token punctuation">{</span> <span class="token comment"># 访问路径配置</span>
+         <span class="token comment"># root index;# 根⽬录 </span>
+         proxy_pass http<span class="token punctuation">:</span>//tomcat; 
+         index index.html index.htm; <span class="token comment"># 默认⾸⻚ </span>
+     <span class="token punctuation">}</span> 
+ <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>重新启动Nginx 然后⽤浏览器测试：http://www.jjj.com （此域名须配置域名指向）</p> <h3 id="_2-负载均衡"><a href="#_2-负载均衡" class="header-anchor">#</a> 2. 负载均衡</h3> <h4 id="_2-1-配置负载均衡-准备"><a href="#_2-1-配置负载均衡-准备" class="header-anchor">#</a> 2.1 配置负载均衡-准备</h4> <p>（1）使⽤docker创建3个tomcat容器，端⼝分别为8080 ，8081，8082。</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>docker run <span class="token punctuation">-</span>id <span class="token punctuation">-</span><span class="token punctuation">-</span>name=c_tomcat1 \
+<span class="token punctuation">-</span>p 8081<span class="token punctuation">:</span>8080 \ 
+<span class="token punctuation">-</span>v $PWD<span class="token punctuation">:</span>/usr/local/tomcat/webapps \
+tomcat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>docker run <span class="token punctuation">-</span>id <span class="token punctuation">-</span><span class="token punctuation">-</span>name=c_tomcat1 \
+<span class="token punctuation">-</span>p 8082<span class="token punctuation">:</span>8080 \ 
+<span class="token punctuation">-</span>v $PWD<span class="token punctuation">:</span>/usr/local/tomcat/webapps \
+tomcat
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>（2）分别启动这三个tomcat服务<br>
+（3）为了能够区分是访问哪个服务器的⽹站，可以在⾸⻚标题加上标记以便区分。</p> <h4 id="_2-2-配置负载均衡"><a href="#_2-2-配置负载均衡" class="header-anchor">#</a> 2.2 配置负载均衡</h4> <p>修改 Nginx配置⽂件：lb.conf</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>upstream tomcat<span class="token punctuation">-</span>jjj<span class="token punctuation">{</span> 
+    server 192.168.220.12<span class="token punctuation">:</span>8080; 
+    server 192.168.220.12<span class="token punctuation">:</span>8081; 
+    server 192.168.220.12<span class="token punctuation">:</span>8082;
+<span class="token punctuation">}</span> 
+server <span class="token punctuation">{</span> 
+    listen 80; <span class="token comment"># 监听的端⼝ </span>
+    server_name www.jjj.com; <span class="token comment"># 域名或ip </span>
+    location / <span class="token punctuation">{</span> <span class="token comment"># 访问路径配置</span>
+         <span class="token comment"># root index;# 根⽬录 </span>
+         proxy_pass http<span class="token punctuation">:</span>//tomcat; 
+         index index.html index.htm; <span class="token comment"># 默认⾸⻚ </span>
+     <span class="token punctuation">}</span> 
+     error_page 500 502 503 504 /50x.html; 
+     <span class="token comment"># 错误⻚⾯ </span>
+     location = /50x.html <span class="token punctuation">{</span> 
+         root html; 
+     <span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><p>地址栏输⼊http:// www.jjj.com 刷新观察每个⽹⻚的标题，看是否不同。经过测试，三台服务器出现的概率各为33.3333333%，交替显示。如果其中⼀台服务器性能比较好，想让其承担更多的压力，可以设置权重。</p> <div class="language-yaml line-numbers-mode"><pre class="language-yaml"><code>upstream tomcat<span class="token punctuation">-</span>travel <span class="token punctuation">{</span> 
+server 192.168.177.129<span class="token punctuation">:</span>8080; 
+server 192.168.177.129<span class="token punctuation">:</span>8081 weight=2; 
+server 192.168.177.129<span class="token punctuation">:</span>8082; 
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#一、nginx的安装与启动" class="sidebar-link reco-side-一、nginx的安装与启动" data-v-b57cc07c>一、Nginx的安装与启动</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_1-什么是nginx" class="sidebar-link reco-side-_1-什么是nginx" data-v-b57cc07c>1. 什么是Nginx</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_2-安装nginx" class="sidebar-link reco-side-_2-安装nginx" data-v-b57cc07c>2. 安装Nginx</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#二、nginx静态网站部署" class="sidebar-link reco-side-二、nginx静态网站部署" data-v-b57cc07c>二、Nginx静态网站部署</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_1-静态网站的部署" class="sidebar-link reco-side-_1-静态网站的部署" data-v-b57cc07c>1. 静态网站的部署</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_2-配置虚拟主机" class="sidebar-link reco-side-_2-配置虚拟主机" data-v-b57cc07c>2. 配置虚拟主机</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#三、nginx反向代理与负载均衡" class="sidebar-link reco-side-三、nginx反向代理与负载均衡" data-v-b57cc07c>三、Nginx反向代理与负载均衡</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_1-反向代理" class="sidebar-link reco-side-_1-反向代理" data-v-b57cc07c>1. 反向代理</a></li><li class="level-3" data-v-b57cc07c><a href="/blogs/Ningx/Nginx%E5%85%A5%E9%97%A8.html#_2-负载均衡" class="sidebar-link reco-side-_2-负载均衡" data-v-b57cc07c>2. 负载均衡</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.00ab6ad1.js" defer></script><script src="/assets/js/3.063946e3.js" defer></script><script src="/assets/js/1.f0dee50d.js" defer></script><script src="/assets/js/12.20ec64b2.js" defer></script>
+  </body>
+</html>
